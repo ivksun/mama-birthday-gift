@@ -6,11 +6,9 @@
   <meta name="theme-color" content="#f6f0df">
   <meta name="description" content="Подарок для мамы на день рождения">
   <title>С днём рождения, красотка!</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/mama-fast.jpg" as="image" fetchpriority="high">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23171714'/%3E%3Cpath d='M32 49S10 37 10 22c0-10 13-13 22-3 9-10 22-7 22 3 0 15-22 27-22 27Z' fill='%23f5afd0'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <div class="progress" aria-hidden="true"><span></span></div>
@@ -25,8 +23,7 @@
       </div>
 
       <figure class="mama-photo reveal delay-1">
-        <div class="photo-placeholder" aria-hidden="true"><span>твоя<br>фотография</span></div>
-        <img src="assets/mama-mobile.jpg" width="1050" height="1400" alt="Моя любимая мама" decoding="async" onload="this.parentElement.classList.add('has-photo')" onerror="this.remove()">
+        <img src="assets/mama-fast.jpg" width="720" height="960" alt="Моя любимая мама" loading="eager" fetchpriority="high" decoding="async">
         <figcaption>моя самая красивая мама ♡</figcaption>
       </figure>
       <div class="flower-stamp" aria-hidden="true">✿</div>
