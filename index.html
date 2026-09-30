@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f0df">
+  <meta name="description" content="Подарок для мамы на день рождения">
+  <title>С днём рождения, красотка!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23171714'/%3E%3Cpath d='M32 49S10 37 10 22c0-10 13-13 22-3 9-10 22-7 22 3 0 15-22 27-22 27Z' fill='%23f5afd0'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <main>
+    <section class="hero panel" id="hello">
+      <div class="scribble scribble-one" aria-hidden="true">люблю</div>
+      <div class="hero-copy reveal">
+        <h1>С&nbsp;днём рождения,<br><em>красотка!</em></h1>
+        <p class="lead">Сегодня — ещё один хороший повод напомнить, какая ты у&nbsp;меня прекрасная</p>
+        <a class="round-link" href="#wish" aria-label="Читать поздравление">листай</a>
+      </div>
+
+      <figure class="mama-photo reveal delay-1">
+        <div class="photo-placeholder" aria-hidden="true"><span>твоя<br>фотография</span></div>
+        <img src="assets/mama-mobile.jpg" width="1050" height="1400" alt="Моя любимая мама" decoding="async" onload="this.parentElement.classList.add('has-photo')" onerror="this.remove()">
+        <figcaption>моя самая красивая мама ♡</figcaption>
+      </figure>
+      <div class="flower-stamp" aria-hidden="true">✿</div>
+    </section>
+
+    <section class="wish panel" id="wish">
+      <div class="wish-copy reveal">
+        <p class="script">моё главное пожелание</p>
+        <h2>Пожалуйста,<br><span>выбирай себя</span></h2>
+        <p>Я желаю тебе заботиться о&nbsp;себе и&nbsp;помнить, что ты у&nbsp;себя одна. В&nbsp;мире может быть хоть миллион проблем и&nbsp;сложностей, но&nbsp;ты обязательно должна радовать себя.</p>
+        <p>Самый счастливый человек, для которого ты должна стараться, — <strong>это ты сама.</strong></p>
+      </div>
+      <aside class="note reveal delay-1">Ты заслуживаешь нежности, отдыха, новых впечатлений и&nbsp;времени только для себя</aside>
+    </section>
+
+    <section class="gifts-intro panel">
+      <h2 class="reveal">У&nbsp;меня есть для тебя <em>два подарка</em></h2>
+      <div class="gift-tags reveal delay-1"><span>отдохнуть</span><span>почувствовать</span><span>сотворить</span></div>
+    </section>
+
+    <section class="gift gift-massage panel" id="massage">
+      <div class="gift-copy reveal">
+        <p class="gift-count">подарок № 1</p>
+        <h2>Час, когда<br>можно всё отпустить</h2>
+        <p>Сертификат на&nbsp;массаж всего тела в&nbsp;<strong>Movements Hands</strong>. Ты сама выберешь, чего хочется именно сейчас: расслабиться, восстановиться или хорошенько размять мышцы.</p>
+        <p class="mini">Массаж проходит в&nbsp;ритм музыки — чтобы остановить поток мыслей и&nbsp;наконец выдохнуть.</p>
+        <a class="button button-dark" href="https://movements-hands.com/" target="_blank" rel="noreferrer">Посмотреть Movements Hands</a>
+      </div>
+      <figure class="certificate certificate-massage reveal delay-1">
+        <img src="assets/massage-certificate.jpg" width="824" height="1120" decoding="async" alt="Сертификат Movements Hands на массаж всего тела на один час">
+        <figcaption><span>действует до 29.03.2027</span><span>код 502429</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="gift gift-art panel" id="art">
+      <div class="paint-word" aria-hidden="true">творить!</div>
+      <figure class="certificate certificate-art reveal">
+        <img src="assets/painty-certificate.jpg" width="989" height="1400" decoding="async" alt="Подарочный сертификат Painty на арт-вечеринку">
+      </figure>
+      <div class="gift-copy reveal delay-1">
+        <p class="gift-count">подарок № 2</p>
+        <h2>Вечер с&nbsp;кистью,<br>красками и&nbsp;игристым</h2>
+        <p>Арт-вечеринка <strong>Painty</strong> в&nbsp;Петербурге. Выберешь сюжет, возьмёшь бокал и&nbsp;за&nbsp;один вечер напишешь свою картину — даже если давно не&nbsp;держала кисть в&nbsp;руках.</p>
+        <ul>
+          <li>все материалы уже ждут на&nbsp;месте</li>
+          <li>художник поможет на&nbsp;каждом шаге</li>
+          <li>готовую картину заберёшь домой</li>
+        </ul>
+        <a class="button button-pink" href="https://www.painty.ru/art-vecher-spb" target="_blank" rel="noreferrer">Выбрать арт-вечер</a>
+        <p class="code">Твой код: <strong>8DMAQ3</strong> · действует до 29.09.2027</p>
+      </div>
+    </section>
+
+    <section class="final panel" id="love">
+      <div class="final-inner reveal">
+        <p>и&nbsp;ещё кое-что важное</p>
+        <h2>Я тебя<br><em>люблю</em></h2>
+        <button class="heart" type="button" aria-label="Отправить сердечко">♥</button>
+        <span class="signature">твоя дочка</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
